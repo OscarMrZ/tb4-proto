@@ -45,7 +45,7 @@ PROTO Turtlebot4 [
         name "p3d gyro"
       }
       Solid {
-        translation 0.000000 0.000000 0.039200
+        translation 0.000000 0.000000 0.000000
         children [
           DEF bumper_visual_visual CadShape {
             url "/opt/ros/humble/share/irobot_create_description/meshes/bumper_visual.dae"
@@ -82,7 +82,7 @@ PROTO Turtlebot4 [
           }
         ]
         endPoint Solid {
-          translation 0.000000 0.116500 0.040200
+          translation 0.000000 0.116500 0.001
           rotation -1.000000 0.000000 0.000000 1.570796
           children [
             HingeJoint {
@@ -160,7 +160,7 @@ PROTO Turtlebot4 [
           }
         ]
         endPoint Solid {
-          translation 0.000000 -0.116500 0.040200
+          translation 0.000000 -0.116500 0.001
           rotation -1.000000 0.000000 0.000000 1.570796
           children [
             HingeJoint {
@@ -243,7 +243,7 @@ PROTO Turtlebot4 [
         }
       }
       Solid {
-        translation 0.050613 0.043673 0.084400
+        translation 0.050613 0.043673 0.04
         name "imu_link"
         physics Physics {
           density -1
