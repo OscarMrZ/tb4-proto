@@ -91,13 +91,11 @@ PROTO Turtlebot4 [
               }
               device [
                 RotationalMotor {
-                  name "left wheel motor"
-                  consumptionFactor -0.001
-                  maxVelocity 6.67
+                  name "left_wheel_joint"
+                  maxTorque 10000
                 }
                 PositionSensor {
-                  name "left wheel sensor"
-                  resolution 0.00628
+                  name "left_wheel_joint_sensor"
                 }
               ]
               endPoint Solid {
@@ -169,13 +167,11 @@ PROTO Turtlebot4 [
               }
               device [
                 RotationalMotor {
-                  name "right wheel motor"
-                  consumptionFactor -0.001
-                  maxVelocity 6.67
+                  name "right_wheel_joint"
+                  maxTorque 10000
                 }
                 PositionSensor {
-                  name "right wheel sensor"
-                  resolution 0.00628
+                  name "right_wheel_joint_sensor"
                 }
               ]
               endPoint Solid {
