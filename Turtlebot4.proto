@@ -27,7 +27,7 @@ PROTO Turtlebot4 [
     selfCollision IS selfCollision
     children [
       Transform {
-        translation 0.000000 0.000000 0.000000
+        translation 0.000000 0.000000 0.039200
         rotation 0.000000 0.000000 1.000000 1.570796
         children [
           DEF body_visual_visual CadShape {
@@ -91,13 +91,12 @@ PROTO Turtlebot4 [
               }
               device [
                 RotationalMotor {
-                  name "left_wheel_joint"
-                  maxTorque 10000
+                  name "left wheel motor"
                   consumptionFactor -0.001
                   maxVelocity 6.67
                 }
                 PositionSensor {
-                  name "left_wheel_joint_sensor"
+                  name "left wheel sensor"
                   resolution 0.00628
                 }
               ]
@@ -170,13 +169,12 @@ PROTO Turtlebot4 [
               }
               device [
                 RotationalMotor {
-                  name "right_wheel_joint"
-                  maxTorque 10000
+                  name "right wheel motor"
                   consumptionFactor -0.001
                   maxVelocity 6.67
                 }
                 PositionSensor {
-                  name "right_wheel_joint_sensor"
+                  name "right wheel sensor"
                   resolution 0.00628
                 }
               ]
