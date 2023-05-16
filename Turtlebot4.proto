@@ -27,7 +27,7 @@ PROTO Turtlebot4 [
     selfCollision IS selfCollision
     children [
       Transform {
-        translation 0.000000 0.000000 -1.000000
+        translation 0.000000 0.000000 0.000000
         rotation 0.000000 0.000000 1.000000 1.570796
         children [
           DEF body_visual_visual CadShape {
@@ -570,7 +570,7 @@ PROTO Turtlebot4 [
         }
       }
       Solid {
-        translation 0.000000 0.000000 0.000000
+        translation 0.000000 0.000000 -1.000000
         children [
           Transform {
             rotation 0.577350 0.577350 0.577350 2.094395
@@ -736,7 +736,7 @@ PROTO Turtlebot4 [
             }
           }
           Solid {
-            translation -0.118000 0.000000 0.052570
+            translation -0.118000 0.000000 0.000000
             children [
               DEF camera_bracket_visual CadShape {
                 url "/home/omartinez/smartloc_ct/src/smartloc_ct/turtlebot4/turtlebot4_description/meshes/camera_bracket.dae"
@@ -872,8 +872,9 @@ PROTO Turtlebot4 [
           }
         ]
         name "shell_link"
-        boundingObject DEF shell_collision Mesh {
-          url "/home/omartinez/smartloc_ct/src/smartloc_ct/turtlebot4/turtlebot4_description/meshes/shell_collision.dae"
+        boundingObject Cylinder {
+          radius 0.3
+          height 0.3
         }
         physics Physics {
           density -1
