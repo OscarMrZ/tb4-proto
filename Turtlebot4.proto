@@ -573,7 +573,7 @@ PROTO Turtlebot4 [
         }
       }
       Solid {
-        translation 0.000000 0.000000 0.094200
+        translation 0.000000 0.000000 0.055000
         children [
           Transform {
             rotation 0.577350 0.577350 0.577350 2.094395
@@ -889,7 +889,7 @@ PROTO Turtlebot4 [
         }
       }
       Solid {
-        translation 0.060053 0.087588 0.097885
+        translation 0.060053 0.087588 0.058685
         children [
           DEF weight_block_visual CadShape {
             url "meshes/weight_block.dae"
