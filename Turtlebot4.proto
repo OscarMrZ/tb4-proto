@@ -248,7 +248,7 @@ PROTO Turtlebot4 [
         }
       }
       Solid {
-        translation 0.050613 0.043673 0.084400
+        translation 0.050613 0.043673 0.045200
         name "imu_link"
         physics Physics {
           density -1
