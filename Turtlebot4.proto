@@ -27,7 +27,7 @@ PROTO Turtlebot4 [
     selfCollision IS selfCollision
     children [
       Transform {
-        translation 0.000000 0.000000 0.001000
+        translation 0.000000 0.000000 0.000000
         rotation 0.000000 0.000000 1.000000 1.570796
         children [
           DEF body_visual_visual CadShape {
@@ -78,7 +78,7 @@ PROTO Turtlebot4 [
           LinearMotor {
             name "wheel_drop_left_joint"
             maxPosition 0.03
-            maxForce 10
+            maxForce 100
           }
           PositionSensor {
             name "wheel_drop_left_joint_sensor"
@@ -157,7 +157,7 @@ PROTO Turtlebot4 [
           LinearMotor {
             name "wheel_drop_right_joint"
             maxPosition 0.03
-            maxForce 10
+            maxForce 100
           }
           PositionSensor {
             name "wheel_drop_right_joint_sensor"
