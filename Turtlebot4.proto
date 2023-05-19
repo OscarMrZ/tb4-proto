@@ -27,7 +27,7 @@ PROTO Turtlebot4 [
     selfCollision IS selfCollision
     children [
       Transform {
-        translation 0.000000 0.000000 0.000000
+        translation 0.000000 0.000000 0.039200
         rotation 0.000000 0.000000 1.000000 1.570796
         children [
           DEF body_visual_visual CadShape {
@@ -48,7 +48,7 @@ PROTO Turtlebot4 [
         name "accelerometer"
       }
       Solid {
-        translation 0.000000 0.000000 0.000000
+        translation 0.000000 0.000000 0.039200
         children [
           DEF bumper_visual_visual CadShape {
             url "meshes/bumper_visual.dae"
@@ -85,7 +85,7 @@ PROTO Turtlebot4 [
           }
         ]
         endPoint Solid {
-          translation 0.000000 0.116500 0.001000
+          translation 0.000000 0.116500 0.040200
           rotation -1.000000 0.000000 0.000000 1.570796
           children [
             HingeJoint {
@@ -164,7 +164,7 @@ PROTO Turtlebot4 [
           }
         ]
         endPoint Solid {
-          translation 0.000000 -0.116500 0.001000
+          translation 0.000000 -0.116500 0.040200
           rotation -1.000000 0.000000 0.000000 1.570796
           children [
             HingeJoint {
@@ -721,7 +721,7 @@ PROTO Turtlebot4 [
                 numberOfLayers 1
                 minRange 0.164000
                 maxRange 12.000000
-                resolution 0.020000
+                resolution 0.010000
               }
             ]
             name "rplidar_link"
@@ -889,7 +889,7 @@ PROTO Turtlebot4 [
         }
       }
       Solid {
-        translation 0.060053 0.087588 0.058685
+        translation 0.060053 0.087588 0.097885
         children [
           DEF weight_block_visual CadShape {
             url "meshes/weight_block.dae"
