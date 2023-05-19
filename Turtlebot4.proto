@@ -907,7 +907,7 @@ PROTO Turtlebot4 [
         }
       }
       Solid {
-        translation 0.060053 0.087588 0.106885
+        translation 0.060053 0.087588 0.067685
         children [
           USE weight_block_visual
         ]
@@ -940,7 +940,7 @@ PROTO Turtlebot4 [
         }
       }
       Solid {
-        translation 0.060053 -0.087588 0.106885
+        translation 0.060053 -0.087588 0.067685
         rotation 1.000000 0.000000 0.000000 3.141593
         children [
           USE weight_block_visual
