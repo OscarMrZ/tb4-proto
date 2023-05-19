@@ -71,8 +71,8 @@ PROTO Turtlebot4 [
       SliderJoint {
         jointParameters JointParameters {
           axis 0.000000 0.000000 -1.000000
-          dampingConstant 1.0
-          staticFriction 0.01
+          dampingConstant 5.0
+          staticFriction 0.001
         }
         device [
           LinearMotor {
@@ -150,8 +150,8 @@ PROTO Turtlebot4 [
       SliderJoint {
         jointParameters JointParameters {
           axis 0.000000 0.000000 -1.000000
-          dampingConstant 1.0
-          staticFriction 0.01
+          dampingConstant 5.0
+          staticFriction 0.001
         }
         device [
           LinearMotor {
