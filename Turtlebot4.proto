@@ -95,7 +95,7 @@ PROTO Turtlebot4 [
               device [
                 RotationalMotor {
                   name "left_wheel_joint"
-                  maxTorque 10
+                  maxTorque 100
                   consumptionFactor -0.001
                   maxVelocity 25.0
                 }
@@ -174,7 +174,7 @@ PROTO Turtlebot4 [
               device [
                 RotationalMotor {
                   name "right_wheel_joint"
-                  maxTorque 10
+                  maxTorque 100
                   consumptionFactor -0.001
                   maxVelocity 25.0
                 }
