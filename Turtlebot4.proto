@@ -71,13 +71,11 @@ PROTO Turtlebot4 [
       SliderJoint {
         jointParameters JointParameters {
           axis 0.000000 0.000000 -1.000000
-          staticFriction 0.01
         }
         device [
           LinearMotor {
             name "wheel_drop_left_joint"
             maxPosition 0.03
-            maxForce 1000
           }
           PositionSensor {
             name "wheel_drop_left_joint_sensor"
@@ -94,7 +92,6 @@ PROTO Turtlebot4 [
               device [
                 RotationalMotor {
                   name "left_wheel_joint"
-                  maxTorque 1000
                   consumptionFactor -0.001
                   maxVelocity 25.0
                 }
@@ -149,13 +146,11 @@ PROTO Turtlebot4 [
       SliderJoint {
         jointParameters JointParameters {
           axis 0.000000 0.000000 -1.000000
-          staticFriction 0.01
         }
         device [
           LinearMotor {
             name "wheel_drop_right_joint"
             maxPosition 0.03
-            maxForce 1000
           }
           PositionSensor {
             name "wheel_drop_right_joint_sensor"
@@ -172,7 +167,6 @@ PROTO Turtlebot4 [
               device [
                 RotationalMotor {
                   name "right_wheel_joint"
-                  maxTorque 1000
                   consumptionFactor -0.001
                   maxVelocity 25.0
                 }
