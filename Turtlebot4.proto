@@ -97,7 +97,7 @@ PROTO Turtlebot4 [
                   name "left_wheel_joint"
                   maxTorque 10000
                   consumptionFactor -0.001
-                  maxVelocity 20.0
+                  maxVelocity 50.0
                 }
                 PositionSensor {
                   name "left_wheel_joint_sensor"
@@ -176,7 +176,7 @@ PROTO Turtlebot4 [
                   name "right_wheel_joint"
                   maxTorque 10000
                   consumptionFactor -0.001
-                  maxVelocity 20.0
+                  maxVelocity 50.0
                 }
                 PositionSensor {
                   name "right_wheel_joint_sensor"
