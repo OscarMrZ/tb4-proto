@@ -27,7 +27,7 @@ PROTO Turtlebot4 [
     selfCollision IS selfCollision
     children [
       Transform {
-        translation 0.000000 0.000000 0.010000
+        translation 0.000000 0.000000 0.015000
         rotation 0.000000 0.000000 1.000000 1.570796
         children [
           DEF body_visual_visual CadShape {
